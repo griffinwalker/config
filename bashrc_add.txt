@@ -21,6 +21,10 @@ setxkbmap -option caps:escape
 # vim mode
 set -o vi
 
+# make vim the default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # first tab shows matches
 bind "set show-all-if-ambiguous on"
 
