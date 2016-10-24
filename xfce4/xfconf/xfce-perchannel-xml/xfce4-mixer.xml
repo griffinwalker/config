@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-mixer" version="1.0">
+  <property name="sound-card" type="string" value="HDAIntelAlsamixer"/>
+  <property name="sound-cards" type="empty">
+    <property name="HDAIntelAlsamixer" type="array">
+      <value type="string" value="Master"/>
+      <value type="string" value="Headphone"/>
+      <value type="string" value="Speaker"/>
+      <value type="string" value="Microphone"/>
+      <value type="string" value="IEC958"/>
+      <value type="string" value="IEC958 Default PCM"/>
+      <value type="string" value="IEC958 1"/>
+      <value type="string" value="Beep"/>
+    </property>
+  </property>
+  <property name="window-height" type="int" value="400"/>
+  <property name="window-width" type="int" value="600"/>
+</channel>

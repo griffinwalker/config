@@ -1,0 +1,9 @@
+unit_system=0
+lat=37.779400
+lon=-122.417000
+loc_name=San Francisco, California
+proxy_fromenv=false
+forecast_days=5
+animation_transitions=false
+label0=3
+
