@@ -1,8 +1,9 @@
 #! /bin/bash
-mkdir -p $HOME/Dropbox/.config
-echo "Cloning git repo..."
-ssh-add $HOME/.ssh/github
-git clone git@github.com:griffinwalker/config.git $HOME/Dropbox/.config
+
+# mkdir -p $HOME/Dropbox/.config
+# echo "Cloning git repo..."
+# ssh-add $HOME/.ssh/github
+# git clone git@github.com:griffinwalker/config.git $HOME/Dropbox/.config
 echo "Making Directories..."
 mkdir $HOME/.config
 mkdir $HOME/.i3
