@@ -14,5 +14,10 @@ set clipboard=unnamedplus
 " vnoremap d "_d
 " nnoremap x "_x
 " vnoremap x "_x
+" NERDTree stuff:
+silent! nmap <C-p> :NERDTreeToggle<CR>
+silent! map <F3> :NERDTreeFind<CR>
+let g:NERDTreeMapActivateNode="<F3>"
+let g:NERDTreeMapPreview
 au FileType python map <F5> :!clear && python %<CR>
 :set hlsearch
