@@ -9,10 +9,10 @@ from helpers import retrieve_url,download_file
 from novaprinter import prettyPrinter
 
 
-class thepiratebay(object):
+class thepiratebayzone(object):
 	url='https://thepiratebay.zone'
 	api='https://apibay.org'
-	name='The Pirate Bay w. categories'
+	name='The Pirate Bay zone w. categories'
 
 	# uncomment appropriate lines to include TPB category in qBittorrent search category
 	# currently set to include only HD video for "movies" & "tv"
