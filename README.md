@@ -1,3 +1,12 @@
 # config files git repo
 
-remember to move to the appropriate folders and add dots(.) when necessary to hide the files
+link all files with the files in the repo like so:
+
+
+'''bash
+    ln bash/bash_aliases ~/.bash_aliases
+    ln bash/bashrc ~/.bashrc
+    ln git-prompt.sh ~/.git-prompt.sh
+    ln screenlayout/default.sh ~/.screenlayout/default.sh
+    ln vim/vimrc ~/.vimrc
+    ln i3/config ~/.config/i3/config
