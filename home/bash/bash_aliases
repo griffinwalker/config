@@ -1,0 +1,25 @@
+alias q='exit'
+alias ls='ls --color=auto'
+alias update='sudo apt update && sudo apt upgrade' 
+alias src='source ~/.bashrc'
+alias t='tree -h'
+alias sus='systemctl suspend'
+alias sd='systemctl poweroff'
+alias rb='systemctl reboot'
+alias stremio='flatpak run com.stremio.Stremio'
+alias fd='fdfind'
+alias i3c='vim ~/.config/i3/config'
+alias nosleep='$ sudo systemctl mask sleep.target suspend.target hibernate.target suspend-then-hibernate.target hybrid-sleep.target'
+alias sleep='$ sudo systemctl unmask sleep.target suspend.target hibernate.target suspend-then-hibernate.target hybrid-sleep.target'
+
+# git
+alias g="git"
+alias gc="git checkout"
+alias gco="git commit -am"
+alias gps="git push"
+alias gp="git pull"
+alias gcm="git checkout master"
+alias gpm="git pull origin master"
+alias grh="git reset --hard"
+alias gs="git status"
+alias git_delete_merged='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
