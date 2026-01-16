@@ -9,8 +9,9 @@ alias rb='systemctl reboot'
 alias stremio='flatpak run com.stremio.Stremio'
 alias fd='fdfind'
 alias i3c='vim ~/.config/i3/config'
-alias nosleep='$ sudo systemctl mask sleep.target suspend.target hibernate.target suspend-then-hibernate.target hybrid-sleep.target'
-alias sleep='$ sudo systemctl unmask sleep.target suspend.target hibernate.target suspend-then-hibernate.target hybrid-sleep.target'
+alias v='vim'
+# activate python virtual environment, gotta be in the root folder of the python project
+alias venv='source venv/bin/activate'
 
 # git
 alias g="git"
