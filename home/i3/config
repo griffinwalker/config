@@ -212,6 +212,9 @@ bar {
         status_command i3status
 }
 
+# xfce4 power manager 
+exec --no-startup-id xfce4-power-manager
+
 # start picom compositor
 exec --no-startup-id picom --backend xrender
 
