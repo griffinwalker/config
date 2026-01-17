@@ -12,6 +12,7 @@ alias i3c='vim ~/.config/i3/config'
 alias v='vim'
 # activate python virtual environment, gotta be in the root folder of the python project
 alias venv='source venv/bin/activate'
+alias slon='xss-lock --transfer-sleep-lock -- i3lock -i ~/Pictures/J-dobbs.png --nofork'
 
 # git
 alias g="git"
