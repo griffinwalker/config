@@ -16,7 +16,6 @@ exec --no-startup-id setxkbmap -option caps:escape
 
 
 # set primary monitor and screen orientation
-#exec --no-startup-id xrandr --output HDMI-1 --primary
 exec --no-startup-id xrandr --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output VIRTUAL1 --off
 
 
@@ -166,6 +165,21 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
+
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i ~/Pictures/J-dobbs.png --nofork
+set $monitor_left "HDMI1"
+set $monitor_right "HDMI2"
+
+workspace $ws1 output $monitor_left
+workspace $ws2 output $monitor_right
+workspace $ws3 output $monitor_left
+workspace $ws4 output $monitor_right
+workspace $ws5 output $monitor_left
+workspace $ws6 output $monitor_right
+workspace $ws7 output $monitor_left
+workspace $ws8 output $monitor_right
+workspace $ws9 output $monitor_left
+workspace $ws10 output $monitor_right
 
 # cycle workspaces
 bindsym Mod1+z workspace prev
